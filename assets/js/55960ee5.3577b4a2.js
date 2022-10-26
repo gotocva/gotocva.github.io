@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgotocva_blog=self.webpackChunkgotocva_blog||[]).push([[121],{8070:e=>{e.exports=JSON.parse('[{"label":"nodejs","permalink":"/docs/tags/nodejs","count":2},{"label":"getting started","permalink":"/docs/tags/getting-started","count":2}]')}}]);
