@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgotocva_blog=self.webpackChunkgotocva_blog||[]).push([[8955],{4958:a=>{a.exports=JSON.parse('{"label":"data structures","permalink":"/blog/tags/data-structures","allTagsPath":"/blog/tags","count":1}')}}]);

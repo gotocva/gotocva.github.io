@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgotocva_blog=self.webpackChunkgotocva_blog||[]).push([[2194],{9747:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/http-status-codes","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
