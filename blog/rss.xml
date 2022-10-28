@@ -4,7 +4,7 @@
         <title>Sivabharathy | gotocva.github.io | gotocva tech blog Blog</title>
         <link>https://gotocva.github.io/blog</link>
         <description>Sivabharathy | gotocva.github.io | gotocva tech blog Blog</description>
-        <lastBuildDate>Sun, 16 Oct 2022 05:59:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Oct 2022 13:13:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Blog landing page]]></title>
             <link>https://gotocva.github.io/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Sun, 16 Oct 2022 05:59:33 GMT</pubDate>
+            <pubDate>Wed, 26 Oct 2022 13:13:38 GMT</pubDate>
             <description><![CDATA[Welcome to sivabharathy's technical blog, currently I am working on it.]]></description>
             <content:encoded><![CDATA[<p>Welcome to sivabharathy's technical blog, currently I am working on it. </p><p>Soon update some useful blogs here. Thanks for your interest</p>]]></content:encoded>
         </item>
