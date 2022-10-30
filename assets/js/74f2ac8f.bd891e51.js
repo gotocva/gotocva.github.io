@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgotocva_blog=self.webpackChunkgotocva_blog||[]).push([[2324],{1330:a=>{a.exports=JSON.parse('{"label":"computer","permalink":"/blog/tags/computer","allTagsPath":"/blog/tags","count":1}')}}]);
