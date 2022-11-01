@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgotocva_blog=self.webpackChunkgotocva_blog||[]).push([[8247],{5702:s=>{s.exports=JSON.parse('{"label":"Nodejs Best practices","permalink":"/blog/tags/nodejs-best-practices","allTagsPath":"/blog/tags","count":1}')}}]);
