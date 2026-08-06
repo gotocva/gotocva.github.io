@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Public Diary — Siva Labs</title>
+  <meta name="description" content="A public diary — daily experiences, trips, and the small stories worth keeping." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="accent-bar"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Siva Labs</a>
+      <div class="nav-right">
+        <nav class="nav-links" id="nav-links">
+        <a href="work.html">Work</a>
+        <a href="diary.html" class="active">Public Diary</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="ext" href="https://sivabharathy.in" target="_blank" rel="noopener">sivabharathy.in <span>&#8599;</span></a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path class="icon-moon" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            <g class="icon-sun" style="display:none">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+            </g>
+          </svg>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap page-head">
+      <h1 class="accent-title">Public Diary</h1>
+      <p class="diary-lead">
+        A record of the everyday — daily experiences, trips, and the small
+        stories worth keeping. Four strands run through it: life, travel,
+        learning, and the stories people hand me. Kept honestly, most days, in
+        small pieces.
+      </p>
+    </section>
+
+    <section class="wrap">
+      <div id="diary-filters" class="filters">
+        <button class="filter active" data-cat="All">All</button>
+        <button class="filter" data-cat="Life">Life</button>
+        <button class="filter" data-cat="Travel">Travel</button>
+        <button class="filter" data-cat="Learning">Learning</button>
+        <button class="filter" data-cat="Stories">Stories</button>
+      </div>
+
+      <div id="diary-root" class="diary"></div>
+
+      <div class="hero-links" style="margin-top:48px">
+        <a href="https://sivabharathy.in" target="_blank" rel="noopener" class="arrow-link">&#8592; Back to sivabharathy.in</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="footer-inner">
+      <span class="brand">Siva Labs</span>
+      <span class="footer-note">
+        <a href="https://sivabharathy.in" target="_blank" rel="noopener">&#8592; Back to sivabharathy.in</a>
+        · © 2026 Siva Bharathy
+      </span>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script src="assets/diary.js?v=20260806"></script>
+</body>
+</html>
