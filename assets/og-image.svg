@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#f7f6f1"/>
+  <rect x="0" y="285" width="1200" height="12" fill="#c0392b"/>
+  <text x="90" y="435" font-family="Menlo, monospace" font-size="24" letter-spacing="4" fill="#52605d">SIVA LABS — GOTOCVA.GITHUB.IO</text>
+  <rect x="90" y="461" width="64" height="5" fill="#c0392b"/>
+  <text x="86" y="605" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" fill="#1a1e1d">Products made for</text>
+  <text x="86" y="717" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" fill="#1a1e1d">the open web.</text>
+  <text x="90" y="801" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#52605d">Focused, open-source tools by Siva Bharathy.</text>
+  <text x="90" y="873" font-family="Menlo, monospace" font-size="21" letter-spacing="1" fill="#52605d">blockchain  ·  cryptography  ·  prediction markets  ·  developer tooling</text>
+</svg>

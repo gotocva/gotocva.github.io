@@ -18,11 +18,15 @@ framework, no npm. A companion to [sivabharathy.in](https://sivabharathy.in).
 
 ```
 assets/
-├── styles.css   # all styling + light/dark theme tokens
-├── script.js    # theme toggle (localStorage) + responsive nav
-├── diary.js     # diary ENTRIES data + Month/Week/Day render + filters
+├── styles.css     # all styling + light/dark theme tokens
+├── script.js      # theme toggle (localStorage) + responsive nav
+├── diary.js       # diary ENTRIES data + Month/Week/Day render + filters
+├── og-image.png   # 1200×630 social share card
+├── og-image.svg   # source for og-image.png
 └── favicon.ico
 ```
+
+Root also holds `robots.txt` and `sitemap.xml`.
 
 ## Deploy
 
@@ -36,6 +40,19 @@ Append one object to the `ENTRIES` array in `assets/diary.js` and bump the
 by date automatically (newest first). See [CLAUDE.md](CLAUDE.md) for the exact,
 repeatable steps — Claude can add an entry from a plain-text note and publish
 it for you.
+
+## SEO
+
+Every page carries a canonical URL, meta description, Open Graph + Twitter Card
+tags (sharing `assets/og-image.png`), and JSON-LD structured data (`WebSite` +
+`Person` on home, `ProfilePage`, `CollectionPage`, `Blog`, `ContactPage`).
+`robots.txt` allows all crawlers and points to `sitemap.xml`, which lists all
+five pages. To regenerate the share image after editing `assets/og-image.svg`:
+
+```bash
+qlmanage -t -s 1200 -o /tmp/og assets/og-image.svg
+sips -c 630 1200 /tmp/og/og-image.svg.png --out assets/og-image.png
+```
 
 ## Design
 

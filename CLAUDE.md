@@ -93,15 +93,20 @@ node --check assets/diary.js
 
 Must pass (valid JavaScript) before committing.
 
-### 6. Commit and push
+### 6. Refresh the sitemap date (SEO)
+
+In `sitemap.xml`, update the `<lastmod>` for the `diary.html` `<url>` entry to
+today's date (`YYYY-MM-DD`). Leave the other entries alone.
+
+### 7. Commit and push
 
 ```bash
-git add assets/diary.js diary.html
+git add assets/diary.js diary.html sitemap.xml
 git commit -m "diary: add entry for 2026-08-07"
 git push origin main
 ```
 
-### 7. Confirm
+### 8. Confirm
 
 Tell Siva the entry was added and pushed, and that it'll be live at
 https://gotocva.github.io/diary.html in about a minute. Quote the entry's date,
