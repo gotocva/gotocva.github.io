@@ -1,7 +1,7 @@
 // Loads the ACR browser SDK from a CDN and starts it with the settings in assets/acr-config.js.
 // No build step or npm: the SDK is an ES module fetched at runtime. Anything that goes wrong here
 // (missing key, CDN down, ad blocker) is swallowed so the site itself is never affected.
-const SDK_URL = 'https://cdn.jsdelivr.net/npm/@lib-acr/browser@0.0.1/+esm';
+const SDK_URL = 'https://cdn.jsdelivr.net/npm/@lib-acr/browser@0.0.2/+esm';
 
 const config = window.ACR_CONFIG || {};
 
